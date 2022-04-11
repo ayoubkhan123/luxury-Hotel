@@ -1,7 +1,7 @@
 {
   "main.css": "/luxuryhotel/static/css/main.cdccf2f4.chunk.css",
-  "main.js": "/luxuryhotel/static/js/main.16a6439b.chunk.js",
-  "main.js.map": "/luxuryhotel/static/js/main.16a6439b.chunk.js.map",
+  "main.js": "/luxuryhotel/static/js/main.589d5213.chunk.js",
+  "main.js.map": "/luxuryhotel/static/js/main.589d5213.chunk.js.map",
   "static/js/1.845e2c43.chunk.js": "/luxuryhotel/static/js/1.845e2c43.chunk.js",
   "static/js/1.845e2c43.chunk.js.map": "/luxuryhotel/static/js/1.845e2c43.chunk.js.map",
   "static/css/2.39483483.chunk.css": "/luxuryhotel/static/css/2.39483483.chunk.css",
@@ -22,6 +22,6 @@
   "static/css/main.cdccf2f4.chunk.css.map": "/luxuryhotel/static/css/main.cdccf2f4.chunk.css.map",
   "static/css/2.39483483.chunk.css.map": "/luxuryhotel/static/css/2.39483483.chunk.css.map",
   "index.html": "/luxuryhotel/index.html",
-  "precache-manifest.c48677f533e95862c3d3da400da9b3b2.js": "/luxuryhotel/precache-manifest.c48677f533e95862c3d3da400da9b3b2.js",
+  "precache-manifest.11908c9704cec7189d6a1555dcbf862b.js": "/luxuryhotel/precache-manifest.11908c9704cec7189d6a1555dcbf862b.js",
   "service-worker.js": "/luxuryhotel/service-worker.js"
 }

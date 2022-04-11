@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "16a6439bdb06c35d87cb",
+    "revision": "589d521353aeeeae1972",
     "url": "/luxuryhotel/static/css/main.cdccf2f4.chunk.css"
   },
   {
-    "revision": "16a6439bdb06c35d87cb",
-    "url": "/luxuryhotel/static/js/main.16a6439b.chunk.js"
+    "revision": "589d521353aeeeae1972",
+    "url": "/luxuryhotel/static/js/main.589d5213.chunk.js"
   },
   {
     "revision": "845e2c4320ee3d7edf47",
@@ -52,12 +52,12 @@ self.__precacheManifest = [
     "url": "/luxuryhotel/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/luxuryhotel/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/luxuryhotel/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/luxuryhotel/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/luxuryhotel/static/media/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.24381ee3.jpg"
   },
   {
-    "revision": "af8020097021a05f3da5f78b00736273",
+    "revision": "fe0db3f48272c7cb012ad78e0aa049a9",
     "url": "/luxuryhotel/index.html"
   }
 ];

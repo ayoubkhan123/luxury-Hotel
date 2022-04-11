@@ -1,7 +1,7 @@
 const NavData = [
 {
 title: "Home",
-path: "/",
+path: "/*",
 },
 {
 title: "Rooms",

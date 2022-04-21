@@ -1,4 +1,4 @@
-import React,{useRef} from 'react';
+import React,{useRef,useState} from 'react';
 import useStyle from "./ContactStyle";
 import TextField from '@material-ui/core/TextField';
 import {Button} from "@material-ui/core";
@@ -6,6 +6,11 @@ import emailjs from "emailjs-com";
 
 const Contact = () => {
   const classes = useStyle();
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
+  const [message, setMessage] = useState("");
+
   const form = useRef();
   const sendEmail = (e) => {
       e.preventDefault();
@@ -16,20 +21,24 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
+        setEmail("");
+    setName("");
+    setMessage("");
+    setNumber("");
     };
   return (
     <div className={classes.contact_main}>
 
 <div className={classes.inputs}>
-  <form className={classes.root} ref={form} onSubmit={sendEmail}  noValidate autoComplete="off">
+  <form className={classes.root} ref={form} onSubmit={sendEmail}>
   <p>Full Name</p>
-      <TextField id="filled-basic" required="required" type="text" label="Full Name" variant="filled" />
+      <TextField id="filled-basic" required value={name} onChange={(e) => setName(e.target.value)}  type="text" label="Full Name" variant="filled" />
       <p>Email</p>
-      <TextField id="filled-basic" required="required" type="email" label="Email Address" variant="filled" />
+      <TextField id="filled-basic" required value={email}  onChange={(e) => setEmail(e.target.value)}  type="email" label="Email Address" variant="filled" />
       <p>Phone</p>
-      <TextField id="filled-basic" required="required" type="number" label="Phone #" variant="filled" />
+      <TextField id="filled-basic" required value={number}  onChange={(e) => setNumber(e.target.value)} type="number" label="Phone #" variant="filled" />
       <p>Message</p>
-      <TextField id="filled-basic" required="required" type="message" label="Say hello to us" variant="filled"  multiline rows={8}  />
+      <TextField id="filled-basic" required value={message}  onChange={(e) => setMessage(e.target.value)} type="message" label="Say hello to us" variant="filled"  multiline rows={8}  />
       <span>
       <Button variant="contained" type="submit" value="Send"  color="primary">Send Message</Button>
 </span>
@@ -46,9 +55,6 @@ const Contact = () => {
         <h4>Email Address</h4>
         <h5>ayubbkhan05@gmail.com</h5>
     </div>
-
-
-
 
     </div>
   )

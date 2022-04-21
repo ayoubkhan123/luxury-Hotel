@@ -22,9 +22,9 @@ const useStyle = makeStyles((theme) =>({
           width: "100%",
         display: "flex",
         justifyContent: "center",
-        alignItems: "center",
+        alignItems: "flex-start",
         columnGap: "80px",
-        padding: "60px 0px",
+        paddingTop: "60px",
         flexWrap: "wrap",
       },
       inputs:{
@@ -42,7 +42,10 @@ const useStyle = makeStyles((theme) =>({
         flexDirection: "column !important",
         justifyContent: "center",
         alignItems: "center",
-        paddingBottom: "20px", 
+        paddingTop: "60px", 
+        [theme.breakpoints.down("xs")]:{
+          padding: "20px 0PX", 
+        },
         "& h1":{
             fontWeight: "bold",
             paddingBottom: "15px",

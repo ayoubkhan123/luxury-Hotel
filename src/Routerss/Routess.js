@@ -16,7 +16,7 @@ const Routess = () => {
            <ScrollTop>
         <Navbar/>
             <Routes>
-                <Route path="/*" element={<Homes/>}/>
+                <Route path="/*" exact element={<Homes/>}/>
                 <Route path="/room" element={<Room/>}/>
                 <Route path="/events" element={<Events/>}/>
                 <Route path="/about" element={<About/>}/>

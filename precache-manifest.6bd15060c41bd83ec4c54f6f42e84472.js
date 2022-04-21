@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "589d521353aeeeae1972",
+    "revision": "38625fa26b172a88f67a",
     "url": "/luxuryhotel/static/css/main.cdccf2f4.chunk.css"
   },
   {
-    "revision": "589d521353aeeeae1972",
-    "url": "/luxuryhotel/static/js/main.589d5213.chunk.js"
+    "revision": "38625fa26b172a88f67a",
+    "url": "/luxuryhotel/static/js/main.38625fa2.chunk.js"
   },
   {
     "revision": "845e2c4320ee3d7edf47",
     "url": "/luxuryhotel/static/js/1.845e2c43.chunk.js"
   },
   {
-    "revision": "2dd16b889ed212c4ff16",
+    "revision": "0108862f43881b019500",
     "url": "/luxuryhotel/static/css/2.39483483.chunk.css"
   },
   {
-    "revision": "2dd16b889ed212c4ff16",
-    "url": "/luxuryhotel/static/js/2.2dd16b88.chunk.js"
+    "revision": "0108862f43881b019500",
+    "url": "/luxuryhotel/static/js/2.0108862f.chunk.js"
   },
   {
     "revision": "ba368d440084cba9517f",
@@ -48,12 +48,12 @@ self.__precacheManifest = [
     "url": "/luxuryhotel/static/media/manuel-moreno-DGa0LQ0yDPc-unsplash.0b43ab5f.jpg"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/luxuryhotel/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/luxuryhotel/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/luxuryhotel/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
     "url": "/luxuryhotel/static/media/fernando-alvarez-rodriguez-M7GddPqJowg-unsplash.24381ee3.jpg"
   },
   {
-    "revision": "fe0db3f48272c7cb012ad78e0aa049a9",
+    "revision": "4858fb372365117d787af338b1bf1351",
     "url": "/luxuryhotel/index.html"
   }
 ];
